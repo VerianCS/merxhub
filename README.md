@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/de4af9a5-6fef-4369-bf41-5bb2f5b25fe3)
+
+
 This is a free to use template for a warehouse commerce made in NEXTJS + TAILWINDCSS
 
 ## Getting Started
