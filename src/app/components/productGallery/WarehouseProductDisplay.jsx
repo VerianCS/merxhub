@@ -1,12 +1,13 @@
 "use client"
 
 import React, { useState } from 'react'
-import { Package, Truck, BarChart, Search, ChevronRight } from 'lucide-react'
+import Link from 'next/link'
+import { Package, Truck, BarChart, Search, ChevronRight} from 'lucide-react'
 
 const products = [
   {
     id: 1,
-    name: "Varillas de acero industriales",
+    name: "Manta lisa y granulada",
     category: "Construcción",
     stock: 500,
     unit: "pieces",
@@ -15,59 +16,22 @@ const products = [
   },
   {
     id: 10,
-    name: "Ladrillos",
-    category: "Construcción",
+    name: "Frijoles negros",
+    category: "Alimentos",
     stock: 500,
     unit: "pieces",
     price: 500,
     image: "/placeholder.svg?height=200&width=200&text=Steel+Beams"
   },
   {
-    id: 2,
-    name: "Cables de cobre",
-    category: "Electricidad",
-    stock: 10000,
-    unit: "meters",
-    price: 5,
-    image: "/placeholder.svg?height=200&width=200&text=Copper+Wire"
+    id: 11,
+    name: "Detergente en polvo",
+    category: "Limpieza",
+    stock: 500,
+    unit: "pieces",
+    price: 500,
+    image: "/placeholder.svg?height=200&width=200&text=Steel+Beams"
   },
-  {
-    id: 3,
-    name: "Ladrillos de concreto reforzados",
-    category: "Construcción",
-    stock: 2000,
-    unit: "blocks",
-    price: 15,
-    image: "/placeholder.svg?height=200&width=200&text=Concrete+Blocks"
-  },
-  {
-    id: 4,
-    name: "Paneles solares",
-    category: "Energía",
-    stock: 750,
-    unit: "panels",
-    price: 300,
-    image: "/placeholder.svg?height=200&width=200&text=Solar+Panels"
-  },
-  {
-    id: 5,
-    name: "Pintura industrial",
-    category: "Construcción",
-    stock: 5000,
-    unit: "liters",
-    price: 20,
-    image: "/placeholder.svg?height=200&width=200&text=Industrial+Paint"
-  },
-  {
-    id: 5,
-    name: "Frijoles negros",
-    category: "Alimentos",
-    stock: 5000,
-    unit: "liters",
-    price: 20,
-    image: "/placeholder.svg?height=200&width=200&text=Industrial+Paint"
-  },
-
 
 ]
 
@@ -83,17 +47,16 @@ const ProductCard = ({ product }) => {
       <div className="p-4">
         <h3 className="text-xl font-bold text-gray-800 mb-2">{product.name}</h3>
         <div className="flex justify-between items-center mb-2">
-          <span className="text-gray-600">Cantidad:</span>
-          <span className="font-semibold text-orange-600">{product.stock} {product.unit}</span>
         </div>
         <div className="flex justify-between items-center mb-4">
-          <span className="text-gray-600">Precio:</span>
-          <span className="font-semibold text-orange-600">${product.price}/{product.unit}</span>
         </div>
-        <button className="w-full bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-600 transition duration-300 flex items-center justify-center">
+      <Link href="/#contact">
+      <button className="w-full bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-600 transition duration-300 flex items-center justify-center">
           <Package className="w-5 h-5 mr-2" />
-          View Details
+          Más detalles
         </button>
+      </Link>
+
       </div>
     </div>
   )
@@ -118,7 +81,7 @@ export default function WarehouseProductDisplay() {
             Nuestro <span className="text-orange-600">Almacén</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Explora nuestra vasta selección de productos disponibles.
+            Productos ya disponibles
           </p>
         </div>
 
@@ -181,10 +144,15 @@ export default function WarehouseProductDisplay() {
               <p className="text-sm text-gray-600">Actualizacion de inventario en tiempo real.</p>
             </div>
           </div>
-          <button className="flex items-center bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition duration-300">
+        <Link href="/#contact">
+        <button className="flex items-center bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition duration-300">
             Saber más.
             <ChevronRight className="ml-2 w-5 h-5" />
           </button>
+        </Link>
+
+          
+
         </div>
       </div>
     </div>

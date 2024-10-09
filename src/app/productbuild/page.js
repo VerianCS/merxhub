@@ -91,14 +91,14 @@ export default function ProductDescriptionPage() {
           </div>
         </div>
 
-        <Link href="/" className="inline-block mt-8 animate-fade-in delay-800">
+        <Link href="/#products" className="inline-block mt-8 animate-fade-in delay-800">
           <button className="group relative overflow-hidden px-8 py-3 rounded-full font-semibold 
                              bg-orange-50 text-orange-500 
                              shadow-[inset_0_0_10px_rgba(255,165,0,0.2)] border border-orange-100
                              hover:shadow-[inset_0_0_20px_rgba(255,165,0,0.4)]
                              focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 
                              transition-all duration-300 hover:scale-105">
-            <span className="relative z-10 group-hover:text-white transition-colors duration-300">Go Back</span>
+            <span className="relative z-10 group-hover:text-white transition-colors duration-300">Atrás</span>
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-orange-600 
                             opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>

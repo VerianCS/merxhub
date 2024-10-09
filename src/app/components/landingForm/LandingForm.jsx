@@ -6,7 +6,7 @@ import bgindex from "@/app/public/bgindex.jpg"
 const companyInfo = [
   {
     title: 'Nuestra misión',
-    description: 'To provide innovative solutions that improve lives and businesses worldwide.',
+    description: 'Es simplificar al maximo la importacion/exportacion de mercancías.',
     icon: (
       <svg className="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -15,7 +15,7 @@ const companyInfo = [
   },
   {
     title: 'Nuestra visión',
-    description: 'To be the global leader in sustainable and cutting-edge product development.',
+    description: 'Fomentar el desarrollo de negocios en el mercado cubano.',
     icon: (
       <svg className="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -25,7 +25,7 @@ const companyInfo = [
   },
   {
     title: 'Nuestros valores',
-    description: 'Integrity, innovation, sustainability, and customer-centricity guide everything we do.',
+    description: 'Integridad, inovación, sostenibilidad, solidez en todos nuestros servicios. ',
     icon: (
       <svg className="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -53,8 +53,9 @@ export default function CompanyLanding() {
             Bienvenido a <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">MerxHub</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base sm:text-lg md:mt-5 md:text-xl md:max-w-3xl text-gray-300">
-            Empowering businesses with innovative solutions for building materials, food products, and cleaning supplies.
-          </p>
+            
+              Comercializadora de productos diversos y asesoramiento comercial para tu negocio.
+           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -76,7 +77,7 @@ export default function CompanyLanding() {
 
         <div className="text-center">
           <Link
-            href="/about"
+            href="/#contact"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition-colors duration-300"
           >
             Más sobre nosotros

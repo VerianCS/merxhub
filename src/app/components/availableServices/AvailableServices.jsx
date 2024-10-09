@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const services = [
   {
-    title: 'Building Materials',
-    description: 'Suministros de alta calidad para la construcción.',
+    title: 'Servicios financieros',
+    description: 'Merx ofrece soluciones financieras a medida, tales como gestión de pagos internacionales, financiamiento comerciales y seguros.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -13,17 +13,8 @@ const services = [
     ),
   },
   {
-    title: 'Productos alimenticios.',
-    description: 'Deliciosos productos para la alimentación.',
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Asesoramiento judicial',
-    description: 'Asesoría judicial de calidad para su negocio.',
+    title: 'Asesoramiento comercial',
+    description: 'La empresa gestiona de manera eficiente las regulaciones comerciales',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
@@ -31,8 +22,8 @@ const services = [
     ),
   },
   {
-    title: 'Consulting Services',
-    description: 'Expert advice on product selection and usage for your projects.',
+    title: 'Gestión aduanera',
+    description: 'Merx se especializa en la solucion rapida de todos sus tramites aduaneros.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -40,8 +31,8 @@ const services = [
     ),
   },
   {
-    title: 'Delivery Services',
-    description: 'Fast and reliable delivery of products to your location.',
+    title: 'Logística',
+    description: 'La empresa cordina de manera experta el transporte de mercancías desde su origen hasta su destino final.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -50,8 +41,8 @@ const services = [
     ),
   },
   {
-    title: 'Custom Solutions',
-    description: 'Tailored products and services to meet your specific needs.',
+    title: 'Networking comercial',
+    description: 'La empresa fomenta las conexiones estratégicas entre empresas, facilitando oportunidades de negocio.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />

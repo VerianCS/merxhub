@@ -62,15 +62,15 @@ export default function EnhancedContactForm() {
           <div className="bg-white p-6 rounded-lg shadow-inner space-y-4">
             <div className="flex items-center space-x-4 text-orange-700">
               <Phone className="w-6 h-6" />
-              <span>+1 (555) 123-4567</span>
+              <span>+34 695 04 70 81</span>
             </div>
             <div className="flex items-center space-x-4 text-orange-700">
               <Mail className="w-6 h-6" />
-              <span>contact@merxhub.com</span>
+              <span>contacto@merxhub.es</span>
             </div>
             <div className="flex items-center space-x-4 text-orange-700">
               <Building className="w-6 h-6" />
-              <span>123 Business St, City, Country</span>
+              <span>Passeig Les Vilares 14 B, Montgat, Barcelona, España.</span>
             </div>
           </div>
         </div>
